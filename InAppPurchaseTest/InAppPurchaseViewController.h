@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InAppPurchaseViewController : UIViewController
+#import <StoreKit/StoreKit.h>
+
+@interface InAppPurchaseViewController : UIViewController <SKProductsRequestDelegate,SKPaymentTransactionObserver>
+
+
+
+
 
 @end
